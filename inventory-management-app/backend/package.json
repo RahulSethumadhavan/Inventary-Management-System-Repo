@@ -8,13 +8,14 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.x",
-    "sqlite3": "^5.x",
     "cors": "^2.x",
-    "multer": "^1.x",
     "csv-parser": "^3.x",
+    "dotenv": "^16.x",
+    "express": "^4.x",
     "express-validator": "^6.x",
-    "dotenv": "^16.x"
+    "multer": "^1.x",
+    "pg": "^8.16.3",
+    "sqlite3": "^5.x"
   },
   "devDependencies": {
     "nodemon": "^2.x"
